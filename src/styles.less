@@ -1,1 +1,85 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  color: #212121;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  margin: 12px 0 0 9px;
+
+  i {
+    margin-right: 4px;
+    font-size: 39px !important;
+  }
+
+  &#admin {
+    float: left;
+  }
+}
+
+
+p {
+  margin-left: 12px;
+  // color: #f44336;
+}
+
+#logout-button {
+  float: right;
+  margin: 18px 14px 0 0;
+}
+
+.form-container {
+  display: flex;
+  max-width: 498px;
+  min-width: 398px;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(0, 0, 0, .03);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .24),
+    0 0 2px rgba(0, 0, 0, .12);
+}
+
+.form-title {
+  background-color: #f2f2f2;
+}
+
+form,
+.form-title {
+  padding: 20px;
+}
+
+.form-field {
+  width: 100%;
+  margin: 5px 0;
+}
+
+.form-right-align {
+  text-align: right;
+}
+
+input.form-right-align::-webkit-outer-spin-button,
+input.form-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.form-right-align {
+  -moz-appearance: textfield;
+}
+
+// .mat-flat-button {
+//   margin-bottom: 20px !important;
+// }
