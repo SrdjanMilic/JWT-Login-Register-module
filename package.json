@@ -1,5 +1,5 @@
 {
-  "name": "angular-custom-login-register",
+  "name": "jwt-login-register",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
