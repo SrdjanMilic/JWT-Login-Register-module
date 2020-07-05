@@ -1,5 +1,0 @@
-https://www.techiediaries.com/angular-tutorial-forms-authentication-expressjs/
-https://www.techiediaries.com/angular-tutorial-httpclient-post/
-https://www.techiediaries.com/angular-jwt/
-
-https://codinglatte.com/posts/angular/role-based-authorization-in-angular-route-guards/
